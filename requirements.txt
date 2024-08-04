@@ -5,4 +5,4 @@ django-database-url==1.0.3
 gunicorn==22.0.0
 Pillow==8.1.2
 sqlparse==0.4.2
-pysmbc==1.0.23
+psycopg2==2.9.9
