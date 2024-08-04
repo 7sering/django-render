@@ -13,3 +13,4 @@ PySmbClient==0.1.5
 sqlparse==0.5.1
 typing-extensions==4.12.2
 uvicorn==0.30.5
+whitenoise==6.7.0
