@@ -39,6 +39,9 @@ def blog(request):
     return render(request, "blog.html", context)
 
 
+# ckeditor
+
+
 def blog_detail(request, blog_id):
     blog = Blog.objects.get(id=blog_id)
     recent_blog = Blog.objects.all().exclude(id=blog_id).order_by("-created_at")[:2]
