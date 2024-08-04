@@ -39,7 +39,7 @@ def blog(request):
     return render(request, "blog.html", context)
 
 
-# ckeditor
+# ckeditor w
 
 
 def blog_detail(request, blog_id):
